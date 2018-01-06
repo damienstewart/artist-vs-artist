@@ -75,8 +75,8 @@ echo "<script>$('.loader').hide();</script>";
 include_once('simple_html_dom.php');
 include_once('DaveChild/TextStatistics/Syllables.php');
 
-$url2 = 'https://api.genius.com' . $id2['newrelic-resource-path'] . '/songs?per_page=' . $numberOfSongs . '&access_token=qxDc7oG8urUrl-U2Mm6J7U3Xf-K5vQG0IlTVMQjhb7CYkPwOJi9cU_o9eop2W99p';
-$url = 'https://api.genius.com' . $id['newrelic-resource-path'] . '/songs?per_page=' . $numberOfSongs . '&access_token=qxDc7oG8urUrl-U2Mm6J7U3Xf-K5vQG0IlTVMQjhb7CYkPwOJi9cU_o9eop2W99p';
+$url2 = 'https://api.genius.com' . $id2['newrelic-resource-path'] . '/songs?per_page=' . $numberOfSongs . '&access_token=YOUR ACCESS TOKEN HERE';
+$url = 'https://api.genius.com' . $id['newrelic-resource-path'] . '/songs?per_page=' . $numberOfSongs . '&access_token=YOUR ACCESS TOKEN HERE';
 
 $content = file_get_contents($url);
 $content2 = file_get_contents($url2);
