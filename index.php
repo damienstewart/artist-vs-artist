@@ -87,11 +87,11 @@ $json3 = json_decode($content2, true);
 $allLyrics = '';
 $allLyrics2 = '';
 
-$artistInfo = 'https://api.genius.com' . $id['newrelic-resource-path'] . '?access_token=qxDc7oG8urUrl-U2Mm6J7U3Xf-K5vQG0IlTVMQjhb7CYkPwOJi9cU_o9eop2W99p';
+$artistInfo = 'https://api.genius.com' . $id['newrelic-resource-path'] . '?access_token=YOUR ACCESS TOKEN HERE';
 $artistContent = file_get_contents($artistInfo);
 $json2 = json_decode($artistContent, true);
     
-$artistInfo2 = 'https://api.genius.com' . $id2['newrelic-resource-path'] . '?access_token=qxDc7oG8urUrl-U2Mm6J7U3Xf-K5vQG0IlTVMQjhb7CYkPwOJi9cU_o9eop2W99p';
+$artistInfo2 = 'https://api.genius.com' . $id2['newrelic-resource-path'] . '?access_token=YOUR ACCESS TOKEN HERE';
 $artistContent2 = file_get_contents($artistInfo2);
 $json4 = json_decode($artistContent2, true);   
     
